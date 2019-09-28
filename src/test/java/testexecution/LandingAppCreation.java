@@ -8,8 +8,10 @@ public class LandingAppCreation extends TestRunner {
 
     @Test
     public void createPage() {
-        MatillionLandingApp.aboutYou.setPageDef();
-        MatillionLandingApp.orgName.setPageDef();
+
+        // Reference to main Class name in application folder
+        //Classname.object.page
+
     }
 
 }

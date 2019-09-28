@@ -13,14 +13,13 @@ public class TestRunner {
     public void testSetup() {
 
         WebDriverHelper.setupDriver("Chrome");
-        WebDriverHelper.locateUrl("http://matillion.richardgaskin.co.uk/setup1");
+        WebDriverHelper.locateUrl("");
 
     }
 
     @After
     public void testTeardown() {
 
-       //WebDriverHelper.closeDriver();
     }
 
 
