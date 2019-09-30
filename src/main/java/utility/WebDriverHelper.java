@@ -13,7 +13,6 @@ public class WebDriverHelper {
 
     public static void setupDriver(String browser) {
 
-
         if(browser.equalsIgnoreCase("Chrome")) {
 
             System.setProperty("webdriver.chrome.driver", CHROME_DRIVER);

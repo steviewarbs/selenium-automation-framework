@@ -6,7 +6,7 @@ import utility.WebDriverHelper;
 
 public class TestRunner {
 
-    //Defines the common Before/After annotations that
+    //Defines the common Before/After annotations that will always run prior to tests
 
 
     @Before
